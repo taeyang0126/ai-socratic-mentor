@@ -30,7 +30,7 @@ cp AGENTS.md README.md SESSION-TEMPLATE.md STUDY-TRACKER-TEMPLATE.md "$TARGET_DI
 每次你说 `开始学习`，AI 必须自动执行：
 
 1. 读取 `progress/study-tracker.md`（若不存在则按模板自动创建）。
-2. 读取最近一次会话记录（若当天文件不存在则自动创建当天会话文件）。
+2. 读取最近一次会话记录（若当天目录不存在则自动创建；同一天多次学习会创建多个会话文件，按序号递增）。
 3. 若是首次学习，先让你确认主题和资料；学习边界与阶段目标由 AI 基于参考学习路线拟定草案并让你确认。
 4. 根据追踪器中的「下一次学习入口」继续，不从头开始。
 5. 自动确定今天要学的具体内容并开始苏格拉底教学。
@@ -74,7 +74,9 @@ cp AGENTS.md README.md SESSION-TEMPLATE.md STUDY-TRACKER-TEMPLATE.md "$TARGET_DI
 │   └── study-tracker.md
 └── sessions/
     └── YYYY-MM-DD/
-        └── session-notes.md
+        ├── session-001.md
+        ├── session-002.md
+        └── ...
 ```
 
 ---

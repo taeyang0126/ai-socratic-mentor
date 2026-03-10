@@ -78,8 +78,9 @@
 
 ## 7. 会话索引（AI 必填）
 
-- [YYYY-MM-DD 会话记录](../sessions/YYYY-MM-DD/session-notes.md)
+> 按时间顺序追加，链接到具体会话文件。
 
+- [YYYY-MM-DD session-NNN](../sessions/YYYY-MM-DD/session-NNN.md)
 ---
 
 ## 8. 最近一次会话更新摘要（AI 必填）

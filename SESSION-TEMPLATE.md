@@ -1,7 +1,7 @@
 # 会话记录模板（单主题、AI 自动填写）
 
-> 文件路径：`sessions/YYYY-MM-DD/session-notes.md`
-
+> 文件路径：`sessions/YYYY-MM-DD/session-NNN.md`
+> 命名规则：session-001.md, session-002.md ...（当天按顺序递增）
 ## 1. 会话元信息（AI 必填）
 
 - **日期**：YYYY-MM-DD

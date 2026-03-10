@@ -55,7 +55,9 @@ your-study-dir/
 │   └── study-tracker.md         # 学习追踪器（AI 自动创建和维护）
 ├── sessions/
 │   └── 2024-03-10/
-│       └── session-notes.md     # 每日会话记录（AI 自动创建）
+│       ├── session-001.md     # 会话记录（AI 自动创建，同一天多次学习按序号递增）
+│       ├── session-002.md
+│       └── ...
 └── [你的学习资料]
     ├── textbook.pdf
     ├── notes.md
@@ -69,7 +71,7 @@ your-study-dir/
 | 概念 | 说明 |
 |------|------|
 | **学习追踪器** | `progress/study-tracker.md`，记录你的学习进度、里程碑、复习队列 |
-| **会话记录** | `sessions/YYYY-MM-DD/session-notes.md`，每天的学习过程记录 |
+| **会话记录** | `sessions/YYYY-MM-DD/session-NNN.md`，每次学习过程记录（同一天多次学习会有多个文件） |
 | **苏格拉底四步** | 探索 → 解释 → 验证 → 跟进，AI 的教学方法 |
 | **中断恢复** | 学到一半关掉，下次 AI 会问你要不要继续 |
 | **螺旋复习** | 已掌握的主题会定期提醒你复习（7天→14天→30天→90天） |
